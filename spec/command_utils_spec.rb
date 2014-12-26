@@ -1,4 +1,5 @@
-require 'gulp-runner/command_utils'
+require 'spec_helper'
+require 'gulprunner/command_utils'
 
 describe GulpRunner::CommandUtils do
 	let (:utils) { GulpRunner::CommandUtils }

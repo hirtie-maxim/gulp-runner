@@ -1,9 +1,10 @@
-require 'gulp-runner/gulp'
+require 'spec_helper'
+require 'gulprunner/gulp'
 
 describe GulpRunner::Gulp do
-	let (:gulp) { GulpRunner::Gulp.new('gulp') }
+	let (:gulp) { GulpRunner::Gulp }
 	before(:each) do 
-		GulpRunner.options[:root_path] = "#{Dir.pwd}/spec/fixtures"
+		GulpRunner.root_path = "#{Dir.pwd}/spec/fixtures"
 	end
 
 	it 'returns list of gulp tasks' do
