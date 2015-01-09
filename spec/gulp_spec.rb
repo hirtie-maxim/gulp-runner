@@ -1,5 +1,5 @@
 require 'spec_helper'
-require 'gulprunner/gulp'
+require 'gulp-runner/gulp'
 
 describe GulpRunner::Gulp do
 	let (:gulp) { GulpRunner::Gulp }
@@ -12,7 +12,6 @@ describe GulpRunner::Gulp do
 	describe 'list' do
 		it 'returns list of gulp tasks' do
 			out = gulp.list
-			puts out
 			expect(out).to include "default", "build"
 		end
 	end

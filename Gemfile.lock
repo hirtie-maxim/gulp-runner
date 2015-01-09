@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    bower-rails (0.0.1)
+    gulp-runner (0.0.1)
 
 GEM
   remote: http://rubygems.org/
@@ -114,8 +114,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bower-rails!
   coveralls
+  gulp-runner!
   pry
   rails (~> 4.0.0)
   rake

@@ -1,4 +1,4 @@
-require 'gulprunner/railtie' if defined?(Rails)
+require 'gulp-runner/railtie' if defined?(Rails)
 require 'fileutils'
 
 module GulpRunner

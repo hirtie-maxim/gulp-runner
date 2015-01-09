@@ -15,7 +15,7 @@
         1,
         null
       ],
-      "/home/mhirtie/Documents/Work/gulp-runner/lib/gulprunner/command_utils.rb": [
+      "/home/mhirtie/Documents/Work/gulp-runner/lib/gulp-runner/command_utils.rb": [
         1,
         1,
         1,
@@ -72,7 +72,7 @@
         null,
         null
       ],
-      "/home/mhirtie/Documents/Work/gulp-runner/lib/gulprunner/gulp.rb": [
+      "/home/mhirtie/Documents/Work/gulp-runner/lib/gulp-runner/gulp.rb": [
         1,
         1,
         1,
@@ -105,6 +105,6 @@
         null
       ]
     },
-    "timestamp": 1420809404
+    "timestamp": 1420811068
   }
 }
