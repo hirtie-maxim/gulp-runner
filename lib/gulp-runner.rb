@@ -3,9 +3,10 @@ require 'fileutils'
 
 module GulpRunner
 	class << self
-		attr_accessor :path, :root_path
+		attr_accessor :gulp_file_path, :root_path, :node_modules_path
 	end
 
-	@path = File.join('gulpfile.js')
+	@gulp_file_path = File.join('gulpfile.js')
+	@node_modules_path = ''
 	@root_path = Dir.pwd
 end

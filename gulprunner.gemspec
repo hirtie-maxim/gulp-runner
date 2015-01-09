@@ -1,12 +1,12 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "gulp-runner/version"
+require "gulprunner/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name          = "bower-rails"
-  s.version       = BowerRails::VERSION
+  s.version       = Gulprunner::VERSION
   s.date          = "2013-12-12"
   s.summary       = "Bower for Rails"
   s.description   = "Rails integration for gulp."

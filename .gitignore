@@ -6,3 +6,5 @@ rspec/dummy/db/*.sqlite3-journal
 rspec/dummy/log/*.log
 rspec/dummy/tmp/
 rspec/dummy/.sass-cache
+
+node_modules

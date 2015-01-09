@@ -4,7 +4,7 @@ module GulpRunner
       entries = Dir.entries(GulpRunner.root_path)
       npm_path = File.join(GulpRunner.root_path, 'node_modules', '.bin')
       command = CommandUtils.find_command(command_name, [npm_path])
-
+      
       return command if !command.nil?
       raise Exception
     end
