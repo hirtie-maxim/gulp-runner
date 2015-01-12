@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.name          = "gulp-runner"
   s.version       = Gulprunner::VERSION
   s.date          = "2013-12-12"
-  s.summary       = "Bower for Rails"
+  s.summary       = "Gulp for Rails"
   s.description   = "Rails integration for gulp."
   s.authors       = ["Hirtie Maxim"]
   s.email         = "hirtie.maxim@gmail.com"
