@@ -1,5 +1,0 @@
-= Gulp-runner
-
-https://travis-ci.org/hirtie-maxim/gulp-runner.svg
-
-This project rocks and uses MIT-LICENSE.
