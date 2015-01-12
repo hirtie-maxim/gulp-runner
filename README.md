@@ -1,4 +1,5 @@
-= Gulp-runner
+Gulp-runner
+============
 
 [![Build Status](https://travis-ci.org/hirtie-maxim/gulp-runner.svg)][travis]
 [![Coverage Status](https://img.shields.io/coveralls/hirtie-maxim/gulp-runner.svg)][coveralls]
