@@ -13,9 +13,9 @@ namespace :gulp do
 		task :default do
 			GulpRunner::Gulp.run
 		end
+	end
 
-		task :build do
-			GulpRunner::Gulp.run "build"
-		end
+	task :run, [:task_name] do |t, args|
+		GulpRunner::Gulp.run args[:task_name]
 	end
 end
