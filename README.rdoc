@@ -1,3 +1,5 @@
 = Gulp-runner
 
+[![Build Status](https://travis-ci.org/hirtie-maxim/gulp-runner.svg)](https://travis-ci.org/hirtie-maxim/gulp-runner)
+
 This project rocks and uses MIT-LICENSE.
