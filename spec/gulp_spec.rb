@@ -16,13 +16,13 @@ describe GulpRunner::Gulp do
 		end
 	end
 
-	describe 'task' do
+	describe 'task runner' do
 		it 'runs default task' do
-			expect(gulp.task).to include "Finished 'default'"
+			expect(gulp.run).to include "Finished 'default'"
 		end
 
 		it 'runs build task' do
-			expect(gulp.task("build")).to include "Finished 'build'"
+			expect(gulp.run("build")).to include "Finished 'build'"
 		end
 	end
 end
