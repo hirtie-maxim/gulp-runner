@@ -8,4 +8,6 @@ rspec/dummy/tmp/
 rspec/dummy/.sass-cache
 
 node_modules
-!Gemfile
+
+Gemfile.lock
+./coverage
