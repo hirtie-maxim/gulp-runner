@@ -1,11 +1,11 @@
 module GulpRunner
 	class Gulp
 		def self.list
-      `#{gulp} --cwd #{cwd || '.'} --tasks`
+      `#{gulp} --cwd #{cwd} --tasks`
 		end
 
 		def self.run(task_name = "default")
-			`#{gulp} --cwd #{cwd || '.'} #{task_name}`
+			`#{gulp} --cwd #{cwd} #{task_name}`
 		end
 
 		private
