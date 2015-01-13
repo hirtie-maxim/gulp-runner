@@ -23,4 +23,6 @@ gem "rails", rails
 
 gem 'pry'
 
+gem 'coveralls', require: false
+
 gemspec
