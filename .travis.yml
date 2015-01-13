@@ -4,5 +4,5 @@ rvm:
 install:
   - bundle install
 before_script:
-  - "cd spec/fixtures && npm install"
+  - "cd spec/fixtures && npm install && cd ../.."
 script: rspec spec
