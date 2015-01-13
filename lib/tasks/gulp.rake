@@ -10,11 +10,13 @@ namespace :gulp do
 	end
 
 	namespace :run do
+		desc 'Runs default task'
 		task :default do
 			GulpRunner::Gulp.run
 		end
 	end
 
+	desc 'Run gulp task'
 	task :run, [:task_name] do |t, args|
 		GulpRunner::Gulp.run args[:task_name]
 	end
