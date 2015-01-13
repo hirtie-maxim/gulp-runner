@@ -10,4 +10,4 @@ rspec/dummy/.sass-cache
 node_modules
 
 Gemfile.lock
-./coverage
+coverage
