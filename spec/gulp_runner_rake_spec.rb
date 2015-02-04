@@ -20,11 +20,6 @@ describe 'gulp runner rake test' do
 			allow(GulpRunner::Gulp).to receive(:run)
 		end
 
-		it 'calls GulpRunner::Gulp.run method with default param' do
-			Rake::Task["gulp:run:default"].invoke
-			expect(GulpRunner::Gulp).to have_received(:run).at_least(1).times
-		end
-
 		it 'calls GulpRunner::Gulp.run method with build param' do
 			Rake::Task["gulp:run"].invoke("build")
 			expect(GulpRunner::Gulp).to have_received(:run).with('build').at_least(1).times
